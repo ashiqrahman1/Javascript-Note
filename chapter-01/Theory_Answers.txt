@@ -1,0 +1,44 @@
+Q) What is Emmet ? 
+
+Ans) Emmet is a set of plug-ins for text editors that allow for high-speed coding and editing in HTML, XML, XSLT, and other structured code formats via content assis
+
+Q) Difference between a Library and Framework?
+
+Ans) There isn’t anything magic about frameworks or library. Both libraries and frameworks are reusable code written by someone else. Their purpose is to help you solve common problems in easier ways.
+
+Library :
+When you use a library, you are in charge of the flow of the application. You are choosing when and where to call the library.
+
+Framework :
+When you use a framework, the framework is in charge of the flow. It provides some places for you to plug in your code, but it calls the code you plugged in as needed.
+
+Q) What is CDN? Why do we use it?
+
+Ans) A content delivery network, or content distribution network, is a geographically distributed network of proxy servers and their data centers. The goal is to provide high availability and performance by distributing the service spatially relative to end users
+
+
+Q) What is crossorigin in script tag?
+
+Ans)The crossorigin attribute sets the mode of the request to an HTTP CORS Request. Web pages often make requests to load resources on other servers
+
+Q) What is diference between React and ReactDOM
+
+Ans) React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser
+
+Q) What is difference between react.development.js and react.production.js files via CDN?
+
+Ans) 
+ Development => The versions are only meant for development, and are not suitable for production.
+ Production => Minified and optimized production versions
+ 
+Q) What is async and defer?
+
+Ans) While loading the website these 2 main thing happend behind
+	1) HTML parsing
+	2) loading script
+	
+	in Async method it will parse the html and fetching file in a async manner once it the fetching is completed it start executing after that html parsing continuos
+	
+	in Defer Method it will parse and fetch same time once the html parsing is done then only file executed occurse
+	
+
