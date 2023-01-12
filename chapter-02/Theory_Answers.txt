@@ -1,0 +1,84 @@
+								Chapter 02 - Assignment - Igniting our App
+--------------------------------------------------------------------------------------------------------
+
+Q) What is `NPM`
+
+Ans)
+Its an Package Manager which we can use to install packages to Our Application
+
+Q) What is `Parcel/Webpack`? Why do we need it?
+
+Ans)
+By using the `Parcel/Webpack` we can bundle our application 
+
+Q) What is `.parcel-cache`
+
+Ans) 
+When we try to build the code with parcel in first time may take some time(Seconds) after when we do any chanages and build it again to compile it quickly it happends because of the .parcel-cache it track all the changes and events inside the cache
+
+Q) What is `npx` ?
+
+Ans) 
+To Execute the javascript package
+
+Q) What is difference between `dependencies` vs `devDependencies`
+
+Ans)
+dependencies => This property contain the name and version of the node modules which are required at the runtime.
+
+devDependencies => This property contain name and version of the node module which are required only for the development purpose
+
+Q) What is Tree Shaking?
+
+Ans) Tree shaking is a term commonly used within a JavaScript context to describe the removal of dead code.
+
+Q) What is Hot Module Replacement?
+
+Ans)
+An HRM exchanges,add or remove module while an application running,without a full reload
+
+Q) List down your favourite 5 superpowers of Parcel and describe any 3 of them in your own words.
+
+Ans)
+
+1) Bundling
+2) Minify
+3) clean Code
+4) HMR
+5) Zero Config
+
+Minify:  minimizing code and markup in your web pages and script files
+HMR: Exchange, add or remove module while an appliction running, without a full reload
+Zero Config: It does not required any additional configuration
+
+Q) What is `.gitignore`? What should we add and not add into it?
+
+Ans)
+An gitignore file wont add the file to stage phase when we add the files, it very help full when we have configuration file that we dont want to push to the repository
+
+Q) What is the difference between `package.json` and `package-lock.json`
+
+Ans)
+package.json => When we initialize the npm it create an package.json. This file contain the basic information and version installed 
+
+package.lock.json => this file is used to lock the version of the installed package
+
+Q) Why should I not modify `package-lock.json`?
+
+Ans)
+No, it not a good thing to modify the package-lock.json file it contain the exact version and the dependencies required for the application, a small change can cause big issue
+
+Q) What is `node_modules` ? Is it a good idea to push that on git?
+
+Ans)
+We dont need to push the node_module file to git, becasue we can re-create the same file again by npm install command, but make sure we place the package*.json file over there
+
+Q) What is the `dist` folder?
+
+Ans)
+All the builds we create goes to the dist folder
+
+Q) What is `browserlists`
+
+Ans)
+the browserList help our application compatible with all modern/legacy browsers
