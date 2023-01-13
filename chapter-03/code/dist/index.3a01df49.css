@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+}
+
+.header {
+  background-color: #333;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  display: flex;
+}
+
+.header__left > img {
+  width: 80px;
+  object-fit: contain;
+}
+
+.header__right > ul {
+  list-style: none;
+  display: flex;
+}
+
+.header__right ul li {
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */

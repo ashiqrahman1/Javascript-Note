@@ -1,0 +1,14 @@
+Q) What is JSX
+
+Ans)
+This is an example of JSX ``const element = <h1>Hello, world!</h1>`` its neither a string nor HTML. Most people thinks its an html inside the javascript but in reality its wrong. we can write the html in react by React.createElement() but its not a developer friendly its too messy and hard debug and code, so the facebook dev introduced the jsx.
+
+Q) Super Power of JSX
+
+Ans) 
+The JSX it much more easy to use as compair to react.createElement. the code we write on JSX have more readability, and we can run any javascript code inside the JSX by using the {} // curly brackets 
+
+Q) Role of ``type`` attribute in script tag ? what option can i use there ?
+
+Ans)
+
