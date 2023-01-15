@@ -1,0 +1,52 @@
+Q) Is JSX mandatory for React ?
+
+Ans) No its not mandatory that we should use the JSX but its a best practies and recommanded
+
+Q) is ES6 mandatory for React ?
+
+Ans) No its not mandatory
+
+Q){TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent><TitleComponent/>} in JSX
+
+Ans) Suppose if we write the jsx and we want to include that into the <Functional Component> by writing in { } => brackets (eg we can execute any piece of javascript inside bracket)
+
+Q) How can i write comments in JSX ?
+
+Ans) Its the same way we used to write the commands in javascript using //(single line comment) and /* */(Multi Line comment)
+
+Q) What is <React.Fragment></React.Fragment> and <> </> ?
+
+Ans) So if we want to add muliple html tags or components we should wrap it inside and parent tags
+	Ex: 
+		const Header = () => {
+			return (
+				<h1>hello</h1>
+				<h1>test</h1>
+			)
+		} 
+
+		This will thrown and error for us we can't have muliple paranet element
+
+		const Header = () => {
+			return (
+				<div>
+					<h1>Hello</h1>
+					<h1>Test</h1>
+				</div>
+			)
+		}
+
+		This is the correct formate we wrap our elements inside an parent element
+
+
+	If we dont want an extra div tag we should use the <React.Fragment> or <>(empty tags) both work same manner 
+
+
+Q) Whats is Virtual Dom
+
+Ans) So virtual Dom is an Representation of Actual Dom, Updating on virtual dom is much more faster than updating the actual Dom
+
+Q) What is Reconciliation in React ?
+
+Ans) Its An Alogithm which find the diff one tree with another one, it will check what happend,if anything changes its will re-render the portion
+

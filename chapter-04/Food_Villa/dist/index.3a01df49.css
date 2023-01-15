@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+}
+
+.container {
+  max-width: 1290px;
+  margin: auto;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.header {
+  border-bottom: 1px solid #a5a3a3;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: .5rem;
+  display: flex;
+  box-shadow: 0 1px 7px #00000059;
+}
+
+.header__right > ul {
+  list-style: none;
+  display: flex;
+}
+
+.header__right > ul > li {
+  padding: 1rem;
+}
+
+.card {
+  width: 300px;
+  height: 340px;
+  padding: .5rem 1rem;
+  box-shadow: 0 1px 4px #00000029;
+}
+
+.card:hover {
+  border: 1px solid #d3d3d3;
+}
+
+.card__details {
+  flex-direction: column;
+  display: flex;
+}
+
+.card__info > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.cardinfo__bottom {
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+  display: flex;
+}
+
+.card__cuisines {
+  color: #789;
+  padding-top: .5rem;
+  font-size: smaller;
+}
+
+.items {
+  grid-gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
