@@ -50,3 +50,23 @@ Q) What is Reconciliation in React ?
 
 Ans) Its An Alogithm which find the diff one tree with another one, it will check what happend,if anything changes its will re-render the portion
 
+Q) What is React Fiber ?
+
+Ans) ReactFiber is a concept that used in  ReactJS that is used to render a system faster and smoother.
+In Other words in a re-implementation of old version of react Reconciler. 
+
+Q) Why we need keys in ReactJ? When do we need keys in React? 
+
+Ans) By Using Keys Help the React to Identify which item have changed, are  added or removed, key should be given to element inside the arrya to give the element a stable identity
+
+Q) Can we use index as key in React ?
+
+Ans) The Answer is "Yes" but its not a good practies  
+a key is the only thing React uses to identify DOM elements. What happens if you push an item to the list or remove something in the middle? If the key is same as before React assumes that the DOM element represents the same component as before
+
+Q) What is Props in React ? 
+ 
+Ans) Props mean "Properties". We can pass the parameter to a functional components by using Props
+
+Q) What is Config Driven UI
+
