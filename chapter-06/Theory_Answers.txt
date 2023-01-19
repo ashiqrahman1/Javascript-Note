@@ -1,0 +1,42 @@
+Q) What is a microservice ?
+
+Ans)
+Microservice are an architecure and organized approach to software development where software is composed of samll independent service that communicate over well-defined API, This help us to scale and deply application easly
+
+Q) What is a Monolith Architecture
+
+Ans) 
+In Monolith Architecture all the process are tightly coupled and run as a single service. if the application spike the demand the entire architecure should be scaled. Adding or improving features in monolith application is very complex
+
+Q) What is the Difference between Monolith and Microservice architecture
+
+Ans)
+So Monolith is Tightly coupled and Microservice is loosly-coupled. In Monolith all the process run as a single service, In Microservice everything is independed each other
+
+Q) Why do we need a useEffect Hook
+
+Ans) 
+It lets us interact with outside world but affect the rendering or performance of the component that it's in 
+
+Q) What is Optional Chaining? 
+
+Ans)
+The optional Chaining(?.) operator accesses an object's property or calls a function.if the object accessed or function called is `undefined` or `null`, it return `undefined` instead of throwing error
+
+Q) What is Shimmer UI ?
+
+Ans)
+Shimmer is a temporary animation placeholder for when data from the service call takes time to get back and we don't want to block rendering the rest of the UI.
+
+Q) What is Condtional Rendering, Explain with code example 
+
+Ans)
+Basically its Render based on a certain condition. if the condition matches it will render if its not when it wont render
+
+example
+{Condition ? <RenderTrue_par/> : <RenderFalse_part/>}
+
+Q) What is CORS ?
+
+Ans) Cross Origin Resource sharing, its an security mechansim inbuilt in browsers.
+
