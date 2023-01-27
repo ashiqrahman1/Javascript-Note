@@ -1,0 +1,29 @@
+Q) What are the way to add images into our App? Explain With Code Example
+
+Ans) 
+You can add image the old style by adding url in src inside img tag 
+
+<img src="URL"/>
+
+or you can import it from another file, suppose the image is placed inside the "assets" folder we can import that from the folder
+
+import img from "assets/hello.jpg"
+
+
+Q) What Would happen if we do console.lg(useState())
+
+Ans
+
+
+Q) How will useEffect behave if we dont add a dependancy Array ?
+
+Ans) It will execute all when ever the render happends
+
+Q) What is SPA
+
+Ans) SPA Means Single Page Application, Web Application or Website that interacts with the user by dynamically rewriting the current web page with new data from the webserver
+
+
+Q) What is the Difference between Client Side Routing and Server Side Routing
+
+Ans) In Server Side Rendering when we make request to new route/page it will make an HTTP request to server and download the page for us and display it, in client side routing when ever we make an new route it will not request to the server to load the page, because the route handle internally by the JavaScript that is loads on the Page. 
